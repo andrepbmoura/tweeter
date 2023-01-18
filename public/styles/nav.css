@@ -1,0 +1,18 @@
+nav {
+  height: 120px;
+  width: 100%;
+  font-family: "Bungee", sans-serif;
+  background: #4056A1;
+  color: #FFFFFF;
+  padding: 1.5em;
+}
+
+.write-tweet-nav {
+  float: right;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.fa-solid, .fa-angles-down {
+  margin-left: 50%;
+  color: red;
+}
