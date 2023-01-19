@@ -6,6 +6,7 @@ header {
   flex-direction: column;
   align-items: center;
   background-image: url("https://www.transparenttextures.com/patterns/foggy-birds.png");
+  background-color: rgb(79, 165, 245);
 }
 
 
