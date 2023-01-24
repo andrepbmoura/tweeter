@@ -4,10 +4,6 @@ button {
   color: #FFFFFF;
 }
 
-.create-tweet {
-  display: flex;
-}
-
 .new-tweet {
   font-family: "Source Sans Pro", sans-serif;
   width: 100%;
@@ -29,4 +25,21 @@ button {
  font-family: "Bungee", sans-serif;
 }
 
+.counter.overlimit {
+  color: red;
+}
+
+.error-message {
+  text-align: center;
+  color: red;
+}
+
+.error {
+  border: 4px red;
+  border-style: solid;
+  width: 80%;
+  position: relative;
+  font-family: source sans pro, sans-serif;
+  margin: 20px auto;
+}  
 
