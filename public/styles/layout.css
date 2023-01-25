@@ -21,7 +21,12 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-.container {
+
+/*
+ * Additional CSS can be defined below or in other CSS files, as per instructions
+ */
+
+ .container {
   display: flex;
   flex-direction: column;
   margin: 0% 5% 0% 5%;
@@ -29,8 +34,3 @@ body {
   overflow-wrap: break-word;
 }
 
-/*
- * Additional CSS can be defined below or in other CSS files, as per instructions
- */
-
- 
