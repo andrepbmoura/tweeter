@@ -8,6 +8,10 @@ article {
   justify-content: center;
 }
 
+article:hover {
+  box-shadow: 7px 7px 1px #b0c0f6;
+}
+
 article.tweet header {
   font-family: source sans pro, sans-serif;
   background-color: #f4f1ec;
@@ -40,7 +44,7 @@ tweet {
 .tweet p {
   border-bottom: 3px black;
   border-style: solid;
-  border-top: none;
+  border-top:none;
   border-left: none;
   border-right: none;
   padding: 5px;
@@ -68,7 +72,7 @@ tweet {
   color: gold;
 }
 
-.footer-icons .fa-solid {
+.footer-icons .fa-solid{
   margin: 0 5px;
   color: #4056A1;
 }
@@ -76,3 +80,7 @@ tweet {
 .footer-tweet {
   margin-top: 30px;
 }
+
+
+
+
