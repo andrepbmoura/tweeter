@@ -46,10 +46,10 @@ const createTweetElement = function (tweet) {
         <h4>${tweet.user.handle}</h4>
       </span>
     </header>
-    <p>If I have seen further it is by standing on the shoulders of giants</p>
+    <p>${tweet.content.text}</p>
     <footer class="footer-tweet">
       <span class="footer-date">
-        <time>${tweet.user.created_at}</time>
+        <time>${tweet.created_at}</time>
       </span>
       <span class="footer-icons">
         <i class="fa-solid fa-flag"></i>
