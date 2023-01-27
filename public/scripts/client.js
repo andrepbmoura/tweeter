@@ -1,4 +1,5 @@
 $(document).ready(function () {
+  
   // Function to create a new tweet element from a tweet object
   const createTweetElement = function (tweet) {
     let $tweet = $(`<article class="tweet">
@@ -43,19 +44,25 @@ $(document).ready(function () {
 
   $(".create-tweet").on('submit', function (e) {
     e.preventDefault();
+    $('.error-message').text('');
+    $('.error').slideUp();
     const tweetText = $(this).find("#tweet-text").val();
     if (tweetText === "") {
-      return alert("🚫🚫 You must type a tweet! 🚫🚫");
+      $('.error').slideDown();
+      $('.error-message').text("🚫🚫 You must type a tweet! 🚫🚫");
     } else if (tweetText.length > 140) {
-      return alert("🚫🚫 Your tweet is longer than 140 characters! 🚫🚫");
+      $('.error').slideDown();
+      $('.error-message').text("🚫🚫 Your tweet is longer than 140 characters! 🚫🚫");
     } else {
       $.ajax({
         type: 'POST',
         url: '/tweets/',
         data: $('.create-tweet').serialize(),
       })
-        .done(function () {
+        .then(function () {
           loadTweets();
+          $('#tweet-text').val('');
+          $('#tweet-test, .counter').text(140);
         })
     }
   });
