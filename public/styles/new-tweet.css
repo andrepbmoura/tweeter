@@ -21,11 +21,24 @@ button {
 }
 
 .counter {
- float: right;
- font-family: "Bungee", sans-serif;
+  float: right;
+  font-family: "Bungee", sans-serif;
 }
 
 .counter.overlimit {
   color: red;
 }
 
+.error {
+  display: none;
+  width: 80%;
+  border: 3px solid red;
+  color: red;
+  position: relative;
+  margin: 20px auto;
+}
+
+.error-message {
+  text-align: center;
+  color: red;
+}
