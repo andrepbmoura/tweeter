@@ -34,5 +34,21 @@ body {
   overflow-wrap: break-word;
 }
 
+@media only screen and (min-width: 768px)
+{
+  .responsive-option {
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-evenly;
+    height: 85vh;
+  }
 
+  
+
+  .container {
+    overflow: scroll;
+    width: 60%;
+    margin-top: 20px;
+  }
+}
 
