@@ -6,7 +6,10 @@
 html {
   box-sizing: border-box;
 }
-*, *:before, *:after {
+
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -26,7 +29,7 @@ body {
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
 
- .container {
+.container {
   display: flex;
   flex-direction: column;
   margin: 0% 5% 0% 5%;
@@ -34,8 +37,7 @@ body {
   overflow-wrap: break-word;
 }
 
-@media only screen and (min-width: 768px)
-{
+@media only screen and (min-width: 768px) {
   .responsive-option {
     display: flex;
     margin-top: 100px;
@@ -43,7 +45,6 @@ body {
     height: 85vh;
   }
 
-  
 
   .container {
     overflow: scroll;
@@ -51,4 +52,3 @@ body {
     margin-top: 20px;
   }
 }
-
