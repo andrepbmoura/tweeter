@@ -37,7 +37,7 @@ body {
   overflow-wrap: break-word;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
   .responsive-option {
     display: flex;
     margin-top: 100px;
@@ -47,8 +47,10 @@ body {
 
 
   .container {
+    background-position: center;
     overflow: scroll;
     width: 60%;
     margin-top: 20px;
+    float: right;
   }
 }

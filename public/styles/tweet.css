@@ -33,13 +33,10 @@ tweet {
   color: #b7b7bb;
   float: right;
   margin-right: 1em;
-  margin-top: 1em;
 }
 
 .user-tweet {
   display: inline-block;
-  margin-top: 1em;
-  margin-left: 1em;
 }
 
 .user-avatar {
