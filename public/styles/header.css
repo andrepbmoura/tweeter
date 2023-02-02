@@ -9,6 +9,13 @@ header {
   background-color: rgb(79, 165, 245);
 }
 
+.username {
+  margin-top: -2em;
+}
 
-
-
+@media only screen and (min-width: 768px) {
+  header {
+    width: 400px;
+    height: 400px;
+  }
+}
