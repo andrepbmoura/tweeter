@@ -1,6 +1,6 @@
 nav {
   display: flex;
-  height: 100px;
+  height: 120px;
   width: 100%;
   top: 0;
   font-family: "Bungee", sans-serif;
@@ -26,6 +26,5 @@ nav {
   nav {
     background-image: url("https://www.transparenttextures.com/patterns/foggy-birds.png");
     background-color: rgb(79, 165, 245);
-    height: 120px;
   }
 }
