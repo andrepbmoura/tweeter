@@ -30,21 +30,30 @@ tweet {
 }
 
 .handle {
-  color: #4f4f54;
+  color: #b7b7bb;
   float: right;
   margin-right: 1em;
+  margin-top: 1em;
 }
 
 .user-tweet {
   display: inline-block;
   margin-top: 1em;
-  margin-left: 0em;
+  margin-left: 1em;
+}
+
+.user-avatar {
+  margin-left: 1em;
+}
+
+.tweets-display {
+  width: 100%;
 }
 
 .tweet p {
   border-bottom: 3px black;
   border-style: solid;
-  border-top:none;
+  border-top: none;
   border-left: none;
   border-right: none;
   padding: 5px;
@@ -63,7 +72,6 @@ tweet {
   flex-direction: row;
   padding: 10px;
   margin: 0;
-  margin-top: -1em;
   align-items: center;
   float: right;
 }
@@ -72,15 +80,7 @@ tweet {
   color: gold;
 }
 
-.footer-icons .fa-solid{
+.footer-icons .fa-solid {
   margin: 0 5px;
   color: #4056A1;
 }
-
-.footer-tweet {
-  margin-top: 30px;
-}
-
-
-
-
