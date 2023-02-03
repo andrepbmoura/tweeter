@@ -1,3 +1,7 @@
+/*
+ * Tweet button and Tweet form styling
+ */
+
 button {
   font-family: "Bungee", sans-serif;
   background: #4056A1;
@@ -10,18 +14,26 @@ button {
 }
 
 #tweet-text {
-    width: 100%;
-    margin-bottom: 20px;
-    border: none;
-    border-bottom: 3px solid black;
-    background-color: transparent;
-    outline: none;
+  width: 100%;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 3px solid black;
+  background-color: transparent;
+  outline: none;
 }
+
+/*
+ * Message counter styling
+ */
 
 .counter {
   float: right;
   font-family: "Bungee", sans-serif;
 }
+
+/*
+ * Error message styling
+ */
 
 .counter.overlimit {
   color: red;

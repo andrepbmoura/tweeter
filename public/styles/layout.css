@@ -37,6 +37,11 @@ body {
   overflow-wrap: break-word;
 }
 
+
+/* 
+ * media queries
+ */
+
 @media only screen and (min-width: 1024px) {
   .responsive-option {
     display: flex;

@@ -1,5 +1,12 @@
+/*
+ * Client-side JS logic goes here
+ * jQuery is already loaded
+ * Reminder: Use (and do all your DOM work in) jQuery's document ready function
+ */
+
+
 $(document).ready(function () {
-  
+
   // Function to create a new tweet element from a tweet object
   const createTweetElement = function (tweet) {
     let $tweet = $(`<article class="tweet">
@@ -30,6 +37,7 @@ $(document).ready(function () {
     return $tweet;
   };
 
+  // function to take in an array of tweet objects 
   const renderTweets = function (tweets) {
     $('#tweet-container').empty();
     for (const tweet of tweets) {

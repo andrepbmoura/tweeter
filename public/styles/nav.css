@@ -1,3 +1,7 @@
+/*
+ * Nav bar styling
+ */
+
 nav {
   display: flex;
   height: 120px;
@@ -21,6 +25,11 @@ nav {
   margin-left: 50%;
   color: red;
 }
+
+
+/* 
+ * media queries
+ */
 
 @media (max-width: 1024px) {
   nav {

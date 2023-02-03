@@ -1,3 +1,7 @@
+/*
+ * Posted Tweets Styling
+ */
+
 article {
   display: flex;
   width: 100%;
@@ -19,28 +23,34 @@ article.tweet header {
   margin-top: 0px;
 }
 
-tweet {
-  margin-top: 20px;
+.tweet {
+  margin: 2em 0;
+  padding: 0.5em;
+  display: flex;
+  width: 100%;
+  background-color: #f4f1ec;
+  border: 4px solid black;
+  flex-direction: column;
 }
 
 .tweet header {
   display: block;
   background-image: none;
-  width: 100%;
+  width: 100%
 }
+
+/*
+ * Name, and handle styling
+ */
 
 .handle {
   color: #b7b7bb;
   float: right;
-  margin-right: 1em;
 }
 
 .user-tweet {
   display: inline-block;
-}
-
-.user-avatar {
-  margin-left: 1em;
+  ;
 }
 
 .tweets-display {
@@ -55,6 +65,11 @@ tweet {
   border-right: none;
   padding: 5px;
 }
+
+
+/*
+ *  footer icons and "days since posting" styling
+ */
 
 .footer-date {
   font-size: 20px;
