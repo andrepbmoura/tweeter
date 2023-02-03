@@ -16,13 +16,14 @@ This app provides the user with the ability to post tweets. This app was built w
 
 !["Screenshot of main Tweeter page with error message"](https://github.com/andrepbmoura/tweeter/blob/master/public/images/Tweeter02.jpeg)
 
+**Main Tweeter page with an Error Message when Submitting a Tweet that is Too Long**
+
+!["Screenshot of main Tweeter page with error message"](https://github.com/andrepbmoura/tweeter/blob/master/public/images/Tweeter04.jpeg)
+
+
 **Condensed Tweeter Page for Mobile View**
 
 !["Screenshot of small main Tweeter page"](https://github.com/andrepbmoura/tweeter/blob/master/public/images/Tweeter03.jpeg)
-
-**Condensed Tweeter Page for Mobile View with an Error Message when Submitting a Tweet that is Too Long**
-
-!["Screenshot of main Tweeter page with error message"](https://github.com/andrepbmoura/tweeter/blob/master/public/images/Tweeter04.jpeg)
 
 
 ## Getting Started
